@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Geolocation</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="logo">Hi there, Welcome to Geolocation.</h1>
+      <p>On this website an integrated API may determine your location!</p>
+      <p>Disclaimer: By pressing the button to determine your location you consent that the API determines your location.</p>
+    </header>
+    <section class="section">
+      <h1 id="nav">Determine your Location by clicking on the button below</h1>
+      <button id="geolocation">Determine your location</button>
+    </section>
+    <section class="left">
+      <h2 id="left">This is your current Location</h2>
+      <p>Click on the link below, if you want to check out your current location in a Map!</p>
+      <div id="location"></div>
+      <a id="map-link" target="_blank"></a>
+    </section>
+    <section class="right">
+      <h2 id="right">Map of your current Location:</h2>
+    </section>
+    <footer class="footer">
+      <div class="foooter">  
+        <form action="index.html" method="">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname">
+            <label for="age">Age</label>
+            <input type="number" id="age">
+            <button type="submit" id="btn">Submit</button>
+        </form>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
